@@ -19,5 +19,5 @@ int	main()
 
 static	int	func_a()
 {
-	return	0;
+	return	100;
 }
