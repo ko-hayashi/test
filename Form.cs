@@ -1,6 +1,8 @@
 #include	<stdio.h>
 
 
+static	int	func_a();
+
 int	main()
 {
 	int	i;
@@ -11,5 +13,11 @@ int	main()
 		printf("loop %d\n", i);
 	}
 	
+	return	0;
+}
+
+
+static	int	func_a()
+{
 	return	0;
 }
