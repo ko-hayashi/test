@@ -13,6 +13,8 @@ int	main()
 	for(i = 0; i < 100; i ++){
 		printf("loop %d\n", i);
 	}
+	
+	return	0;
 }
 
 static	int	func_b()
